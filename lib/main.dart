@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 // import 'package:flutter/services.dart'; For making the app always on portrait . . .
 
@@ -22,9 +21,9 @@ class MyApp extends StatelessWidget {
     final ThemeData theme = ThemeData(
       colorScheme: ColorScheme.light(
         primary: const Color(0xFF2C0540),
-        primaryVariant: const Color(0xff3700b3),
+        primaryContainer: const Color(0xff3700b3),
         secondary: const Color(0xFFFFC95B),
-        secondaryVariant: const Color(0xff018786),
+        secondaryContainer: const Color(0xff018786),
         surface: Colors.white,
         background: Colors.white,
         error: const Color(0xffb00020),
